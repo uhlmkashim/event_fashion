@@ -82,7 +82,7 @@
         };
 
         function redirect() {
-            location.href = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ferror%3Fl_frm%3DEvent_fashion_stage_end_swf_1%26rnd%3D29641186";
+            location.href = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Ferror%3Fl_frm%3DEvent_fashion_stage_end_swf_1";
         };
 
         function isFlash() {
@@ -266,7 +266,7 @@
         StageEnd.prototype.runPex = function(option) {
             var self = this;
             this.pex = new Pex(
-                'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fevent_fashion%2Fstage_end_swf%2F3%2F3%3Fl_frm%3DEvent_fashion_stage_end_swf_1%26rnd%3D15242060', "container", option);
+                '../../event_fashion/event_fashion/stage_end_swf/3/round 1.swf', "container", option);
             this.api = this.pex.getAPI();
             this.api.ready(function() {
                 $('#prefetch').empty();
